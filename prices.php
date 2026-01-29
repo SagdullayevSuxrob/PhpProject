@@ -74,68 +74,85 @@ require('includes/header.php');
             <tbody>
                 <tr>
                     <th scope="row" class="text-start">Public</th>
-                    <td><svg class="bi" width="24" height="24">
+                    <td>
+                        <!-- <svg class="bi" width="24" height="24">
                             <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
+                        </svg> -->
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row" class="text-start">Private</th>
-                    <td></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
             </tbody>
 
             <tbody>
                 <tr>
                     <th scope="row" class="text-start">Permissions</th>
-                    <td><svg class="bi" width="24" height="24">
+                    <td>
+                        <svg class="bi" width="24" height="24">
                             <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
+                        </svg>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row" class="text-start">Sharing</th>
-                    <td></td>
-                    <td><svg class="bi" width="24" height="24">
+                    <td>
+                        <svg class="bi" width="24" height="24">
                             <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
+                        </svg>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row" class="text-start">Unlimited members</th>
-                    <td></td>
-                    <td><svg class="bi" width="24" height="24">
+                    <td>
+                        <svg class="bi" width="24" height="24">
                             <use xlink:href="#check" />
-                        </svg></td>
-                    <td><svg class="bi" width="24" height="24">
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="bi" width="24" height="24">
                             <use xlink:href="#check" />
-                        </svg></td>
+                        </svg>
+                    </td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row" class="text-start">Extra security</th>
                     <td></td>
                     <td></td>
-                    <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg></td>
+                    <td>
+                        <h3>+</h3>
+                    </td>
                 </tr>
             </tbody>
         </table>
