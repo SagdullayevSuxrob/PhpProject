@@ -2,7 +2,7 @@
 $title = "Post Yaratish";
 require('includes/header.php');
 require ('database.php');
-if($_SERVER['REQUEST_METHOD']=== 'POST'){
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $title = $_POST['title'];
     $body = $_POST['body'];
 

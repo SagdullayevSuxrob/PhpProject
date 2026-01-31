@@ -75,9 +75,6 @@ require('includes/header.php');
                 <tr>
                     <th scope="row" class="text-start">Public</th>
                     <td>
-                        <!-- <svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" />
-                        </svg> -->
                         <h3>+</h3>
                     </td>
                     <td>
@@ -148,8 +145,16 @@ require('includes/header.php');
                 </tr>
                 <tr>
                     <th scope="row" class="text-start">Extra security</th>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <svg class="bi" width="24" height="24">
+                            <use xlink:href="#check" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="bi" width="24" height="24">
+                            <use xlink:href="#check" />
+                        </svg>
+                    </td>
                     <td>
                         <h3>+</h3>
                     </td>

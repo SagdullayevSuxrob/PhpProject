@@ -91,8 +91,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['DELETE'])) {
                             <p class="card-text"><?= $post['body'] ?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="/post-edit.php?id=<?= $post['id'] ?>"
-                                        class="btn btn-sm btn-outline-secondary">Edit</a>
+                                    <a href="/post-edit.php?id=<?= $post['id'] ?>" class="btn btn-sm btn-outline-secondary">
+                                        Edit
+                                    </a>
 
                                     <form action="" method="post" onSubmit="return confirm('Rostdan ham bu postni o\'chirmoqchimisiz?')">
                                         <input type="hidden" name="post_id" value="<?= $post['id'] ?>">

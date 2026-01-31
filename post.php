@@ -17,7 +17,7 @@ $post = $statement->fetch();
     <h3><?= $post['id'] ?></h3>
     <h1><?= $post['title'] ?></h1>
     <p class="fs-5 col-md-8"><?= $post['body'] ?></p>
-    <p><small><?= $post['created_at'] ?></small></p>    
+    <small><?= $post['created_at'] ?></small>   
 
     <hr class="col-3 col-md-2 mb-5">
 </div>
